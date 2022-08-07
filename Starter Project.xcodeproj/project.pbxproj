@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2E465B1B28A00B6100917A12 /* Starter_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B1A28A00B6100917A12 /* Starter_ProjectApp.swift */; };
-		2E465B1D28A00B6100917A12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B1C28A00B6100917A12 /* ContentView.swift */; };
+		2E465B1D28A00B6100917A12 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B1C28A00B6100917A12 /* MeetingView.swift */; };
 		2E465B1F28A00B6200917A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E465B1E28A00B6200917A12 /* Assets.xcassets */; };
 		2E465B2228A00B6200917A12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E465B2128A00B6200917A12 /* Preview Assets.xcassets */; };
 		2E465B2C28A00B6200917A12 /* Starter_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B2B28A00B6200917A12 /* Starter_ProjectTests.swift */; };
 		2E465B3628A00B6200917A12 /* Starter_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B3528A00B6200917A12 /* Starter_ProjectUITests.swift */; };
 		2E465B3828A00B6200917A12 /* Starter_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B3728A00B6200917A12 /* Starter_ProjectUITestsLaunchTests.swift */; };
+		2E465B4628A01F9900917A12 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B4528A01F9900917A12 /* theme.swift */; };
+		2E465B4828A0208600917A12 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B4728A0208600917A12 /* DailyScrum.swift */; };
+		2E465B4A28A021ED00917A12 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B4928A021ED00917A12 /* CardView.swift */; };
+		2E465B4C28A0234100917A12 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B4B28A0234100917A12 /* TrailingIconLabelStyle.swift */; };
+		2E465B4E28A023C500917A12 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E465B4D28A023C500917A12 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2E465B1728A00B6100917A12 /* Starter Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starter Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E465B1A28A00B6100917A12 /* Starter_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_ProjectApp.swift; sourceTree = "<group>"; };
-		2E465B1C28A00B6100917A12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E465B1C28A00B6100917A12 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		2E465B1E28A00B6200917A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E465B2128A00B6200917A12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E465B2728A00B6200917A12 /* Starter ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		2E465B3128A00B6200917A12 /* Starter ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E465B3528A00B6200917A12 /* Starter_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_ProjectUITests.swift; sourceTree = "<group>"; };
 		2E465B3728A00B6200917A12 /* Starter_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E465B4528A01F9900917A12 /* theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		2E465B4728A0208600917A12 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		2E465B4928A021ED00917A12 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2E465B4B28A0234100917A12 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		2E465B4D28A023C500917A12 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 		2E465B1928A00B6100917A12 /* Starter Project */ = {
 			isa = PBXGroup;
 			children = (
+				2E465B4428A01F8300917A12 /* Models */,
 				2E465B1A28A00B6100917A12 /* Starter_ProjectApp.swift */,
-				2E465B1C28A00B6100917A12 /* ContentView.swift */,
+				2E465B1C28A00B6100917A12 /* MeetingView.swift */,
+				2E465B4928A021ED00917A12 /* CardView.swift */,
+				2E465B4D28A023C500917A12 /* ScrumsView.swift */,
 				2E465B1E28A00B6200917A12 /* Assets.xcassets */,
 				2E465B2028A00B6200917A12 /* Preview Content */,
 			);
@@ -125,6 +138,16 @@
 				2E465B3728A00B6200917A12 /* Starter_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "Starter ProjectUITests";
+			sourceTree = "<group>";
+		};
+		2E465B4428A01F8300917A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E465B4528A01F9900917A12 /* theme.swift */,
+				2E465B4728A0208600917A12 /* DailyScrum.swift */,
+				2E465B4B28A0234100917A12 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E465B1D28A00B6100917A12 /* ContentView.swift in Sources */,
+				2E465B4828A0208600917A12 /* DailyScrum.swift in Sources */,
+				2E465B4C28A0234100917A12 /* TrailingIconLabelStyle.swift in Sources */,
+				2E465B1D28A00B6100917A12 /* MeetingView.swift in Sources */,
+				2E465B4E28A023C500917A12 /* ScrumsView.swift in Sources */,
+				2E465B4628A01F9900917A12 /* theme.swift in Sources */,
 				2E465B1B28A00B6100917A12 /* Starter_ProjectApp.swift in Sources */,
+				2E465B4A28A021ED00917A12 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
